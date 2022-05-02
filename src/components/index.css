@@ -1,0 +1,125 @@
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 5px solid #000000;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+}
+.search-bar {
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    min-width: 200px;
+}
+.search-bar:focus {
+    outline: none !important;
+}
+.search-button {
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.search-button:hover {
+    background-color: #000000;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#ffffff;
+}
+.movie-box {
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#000000;
+}
+.movie-pad {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#000000;
+    border: 5px solid #000000;
+    border-radius: 7px;
+}
+.movies-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie-box:hover {
+    background-color: #000000;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#ffffff;
+}
+.highlighted {
+    background-color: #000000;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#ffffff;
+}
+.highlighted:hover {
+    background-color: #ffffffff;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#000000;
+}
+.movie-box:hover .highlighted {
+    background-color: #fffcfc;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+    color:#000000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content button {
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin: 2px;
+    padding: 10px 15px;
+}
+.dropdown-content button:hover {
+    background-color: #000000;
+    border-radius: 7px;
+    margin: 2px;
+    padding: 10px 15px;
+    color:#ffffff;
+}
+.dropdown-button {
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 12px 16px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #000000;
+}
+img{
+    width: 50vh;
+    height: auto;
+}

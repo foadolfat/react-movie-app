@@ -1,0 +1,14 @@
+.page-button {
+    background-color: #000000;
+    color:aliceblue;    
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.page-button:hover {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);    
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 15px;
+}
